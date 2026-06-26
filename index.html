@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cynthia Ecommerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body id="vanta-bg">
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="card login-box shadow rounded">
+            <div class="card-body">
+            <h1 class="title text-center">Login / Register</h1>
+
+<form id="loginForm">
+            <div class="row">
+            <div class="col-md-6">
+            <label for="Name" class="form-label text-white">NAME</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+
+            <label for="Phone Number" class="form-label mt-2 text-white">PHONE NUMBER</label>
+             <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone number">
+             </div>
+
+            <div class="col-md-6">
+                <label for="email" class="form-label text-white">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="example@gmail.com">
+
+                <label for="password" class="form-label mt-2 text-white">Password</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="eg;uitmdihatiku">
+              </div>
+            </div>
+
+            <div class="text-center mt-3">
+              <button type="submit" class="btn btn-primary mt-2 px-4">Submit</button>
+            </div>
+          </form>
+          
+            <div class="text-center mt-3">
+          <p class="text-white">
+            Don't have an account? 
+            <a href="index.html" class="text-primary fw-bold">Register now</a>
+          </p>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+<script>
+VANTA.TOPOLOGY({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+      document.getElementById("loginForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        let name = document.getElementById("name").value;
+        let phone = document.getElementById("phone").value;
+        let email = document.getElementById("email").value;
+        let pass = document.getElementById("password").value;
+
+        if(name === "uitmdihatiku" && 
+           phone === "0123456789" && 
+           email === "uitmdihatiku@gmail.com" && 
+           pass === "uitmdihatiku") {
+          alert("Login successful! Redirecting to Home Page...");
+          window.location.href = "Home.html";
+        } else {
+          alert("Login gagal / Invalid login. Sila cuba lagi!");
+          document.getElementById("loginForm").reset();
+        }
+      });
+
+
+</script>
+  </body>
+</html>
