@@ -38,7 +38,7 @@ Ia menggunakan **HTML5, CSS3, dan Bootstrap 5** untuk membina laman web ecommerc
 
 ## Deliverables / Hasil Projek
 - **Live Website Link (GitHub Pages):**  
-  [https://2024583781-tao.github.io/ecommerce-project/](https://2024583781-tao.github.io/ecommerce-project/)
+  [https://2024583781-tao.github.io/ecommerce-project/]
 
 - **GitHub Repository Link:**  
   [https://github.com/2024583781-tao/ecommerce-project](https://github.com/2024583781-tao/ecommerce-project)
