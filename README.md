@@ -22,11 +22,14 @@ Ia menggunakan **HTML5, CSS3, dan Bootstrap 5** untuk membina laman web ecommerc
 - Contact page with feedback form  / Halaman hubungi dengan borang maklum balas  
 
 ## Technology Used / Teknologi Digunakan
-- HTML5  
+- HTML5
+- Laragon
+- PHP
 - CSS3  
-- Bootstrap 5  
+- Bootstrap 5
+- JavaScript
 
-## 🚀 Usage / Cara Guna
+## Usage / Cara Guna
 1. Open `index.html` in **Google Chrome** browser (recommended for uniformity). / Buka `index.html` menggunakan pelayar **Google Chrome** (disyorkan untuk keseragaman).  
 2. Navigate through the pages: Login, Home, Catalog, Dashboard, and Contact.  / Navigasi melalui halaman: Log masuk, Home, Catalog, Dashboard, dan Contact. 
 3. Fill in the contact form to simulate feedback submission.  / Isi borang hubungi untuk simulasi maklum balas.  
