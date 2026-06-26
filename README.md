@@ -12,7 +12,7 @@ Ia menggunakan **HTML5, CSS3, dan Bootstrap 5** untuk membina laman web ecommerc
 - Login / Log masuk
 - Home / Laman Utama
 - Catalog / Produk
-- Sales Products / Produk jualan
+- Dashboard / Papan pemuka 
 - Contact Us / Hubungi Kami
 
 ## Features / Ciri-ciri
@@ -26,24 +26,24 @@ Ia menggunakan **HTML5, CSS3, dan Bootstrap 5** untuk membina laman web ecommerc
 - Papan kawalan dengan carta jualan  
 - Halaman hubungi dengan borang maklum balas  
 
-## 🛠️ Technology Used / Teknologi Digunakan
+## Technology Used / Teknologi Digunakan
 - HTML5  
 - CSS3  
 - Bootstrap 5  
 
 ## 🚀 Usage / Cara Guna
 1. Open `index.html` in **Google Chrome** browser (recommended for uniformity).  
-2. Navigate through the pages: Login, Home, Products, Dashboard, and Contact.  
+2. Navigate through the pages: Login, Home, Catalog, Dashboard, and Contact.  
 3. Fill in the contact form to simulate feedback submission.  
-4. If login is required, use the provided test credentials (Name: uitmdihatiku, Password: uitm123456789).
+4. If login is required, use the provided test credentials (Name: uitmdihatiku, Password: uitmdihatiku, Email: uitmdihatiku@gmail.com & Phone Number: 0123456789).
 
 1. Buka `index.html` menggunakan pelayar **Google Chrome** (disyorkan untuk keseragaman).  
-2. Navigasi melalui halaman: Log masuk, Home, Products, Dashboard, dan Contact.  
+2. Navigasi melalui halaman: Log masuk, Home, Catalog, Dashboard, dan Contact.  
 3. Isi borang hubungi untuk simulasi maklum balas.  
-4. Jika login diperlukan, gunakan maklumat ujian yang disediakan  (Name: uitmdihatiku, Password: uitm123456789). 
+4. Jika login diperlukan, gunakan maklumat ujian yang disediakan ( Nama: uitmdihatiku, Password: uitmdihatiku, Emel: uitmdihatiku@gmail.com & No tel: 0123456789).
 
 
-## 📂 Deliverables / Hasil Projek
+## Deliverables / Hasil Projek
 - **Live Website Link (GitHub Pages):**  
   [https://2024583781-tao.github.io/ecommerce-project/](https://2024583781-tao.github.io/ecommerce-project/)
 
