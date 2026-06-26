@@ -11,7 +11,7 @@ Projek ini dibangunkan sebagai sebahagian daripada kerja kursus Web Programming.
 Ia menggunakan **HTML5, CSS3, dan Bootstrap 5** untuk membina laman web ecommerce yang responsif dengan beberapa halaman:
 - Login / Log masuk
 - Home / Laman Utama
-- Catalog / Produk
+- Catalog / Senarai Produk
 - Dashboard / Papan pemuka 
 - Contact Us / Hubungi Kami
 
@@ -31,7 +31,7 @@ Ia menggunakan **HTML5, CSS3, dan Bootstrap 5** untuk membina laman web ecommerc
 
 ## Usage / Cara Guna
 1. Open `index.html` in **Google Chrome** browser (recommended for uniformity). / Buka `index.html` menggunakan pelayar **Google Chrome** (disyorkan untuk keseragaman).  
-2. Navigate through the pages: Login, Home, Catalog, Dashboard, and Contact.  / Navigasi melalui halaman: Log masuk, Home, Catalog, Dashboard, dan Contact. 
+2. Navigate through the pages: Login, Home, Catalog, Dashboard, and Contact.  / Navigasi melalui halaman: Log masuk, Laman Utama, Senarai Produk, Papan pemuka, dan Hubungi Kami. 
 3. Fill in the contact form to simulate feedback submission.  / Isi borang hubungi untuk simulasi maklum balas.  
 4. If login is required, use the provided test credentials (Name: uitmdihatiku, Password: uitmdihatiku, Email: uitmdihatiku@gmail.com & Phone Number: 0123456789). / Jika login diperlukan, gunakan maklumat ujian yang disediakan ( Nama: uitmdihatiku, Password: uitmdihatiku, Emel: uitmdihatiku@gmail.com & No tel: 0123456789).
 
