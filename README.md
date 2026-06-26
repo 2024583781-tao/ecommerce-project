@@ -16,15 +16,10 @@ Ia menggunakan **HTML5, CSS3, dan Bootstrap 5** untuk membina laman web ecommerc
 - Contact Us / Hubungi Kami
 
 ## Features / Ciri-ciri
-- Responsive navigation bar with dropdown menu  
-- Product listing cards with price and add-to-cart button  
-- Dashboard with sales overview chart  
-- Contact page with feedback form  
-
-- Bar navigasi responsif dengan menu dropdown  
-- Kad senarai produk dengan harga dan butang tambah ke troli  
-- Papan kawalan dengan carta jualan  
-- Halaman hubungi dengan borang maklum balas  
+- Responsive navigation bar with dropdown menu  /  Bar navigasi responsif dengan menu dropdown 
+- Product listing cards with price and add-to-cart button  / Kad senarai produk dengan harga dan butang tambah ke troli  
+- Dashboard with sales overview chart  / Papan kawalan dengan carta jualan  
+- Contact page with feedback form  / Halaman hubungi dengan borang maklum balas  
 
 ## Technology Used / Teknologi Digunakan
 - HTML5  
