@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" conttent="This is new Project 1 for Web Programming Subject">
+  <meta name="keywords" content="HTML,CSS,Bootstrap,Web Programming">
+
+    <title>Catalog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .navbar-brand img {
+      height: 35px;   
+      width: auto;
+    }
+  </style>
+
+    
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Order</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home</a></li>
+            <li><a class="dropdown-item" href="#">Dashboard</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Product</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white disabled" aria-disabled="true">Log out</a>
+        </li></ul>
+</div>
+      
+            <a class="navbar-brand text-white ms-auto d-flex align-items-center"href="#">
+        <img src="icon.png" alt="My Ecommerce Logo" ms-auto>
+        <span>Cynthia Ecommerce</span>
+        </a>
+        </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Products Page</h1>
+        <div class="row">
+            
+            <div class="col-md-4 mb-3">
+            <div class="card" style="width: 20 rem;">            
+            <img src="img/Tshirt.jpg" class="card-img-top uniform-img" alt="Tshirt">
+             <div class="card-body">
+             <h5 class="card-title">Casual T-Shirt</h5>
+             <p class="card-text">RM200</p>
+             <a href="#" class="btn btn-primary">Add to Cart</a>
+             </div>
+                </div>
+            </div>
+          
+            <div class="col-md-4 mb-3">
+            <div class="card" style="width: 20 rem;">
+            <img src="img/Headphone.jpg" class="card-img-top uniform-img" alt="Headphone">
+             <div class="card-body">
+            <h5 class="card-title">Wireless Headphones</h5>
+             <p class="card-text">RM150</p>
+             <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-3">
+            <div class="card" style="width: 20 rem;">
+            <img src="img/nike.jpg" class="card-img-top uniform-img" alt="Shoe">
+            <div class="card-body">
+            <h5 class="card-title">Shoe</h5>
+             <p class="card-text">RM299</p>  
+             <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+            <div class="card" style="width: 20 rem;">
+             <img src="img/Men cap.jpg" class="card-img-top uniform-img" alt="Men cap">
+             <div class="card-body">
+              <h5 class="card-title">Casual Cap</h5>
+              <p class="card-text">RM150</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 20 rem;">
+                 <img src="img/Men sandal.jpg" class="card-img-top uniform-img" alt="Men sandal">
+                 <div class="card-body">
+                 <h5 class="card-title">Men Sandal</h5>
+                 <p class="card-text">RM99</p>
+                 <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+ <div class="col-md-4 mb-3">
+                <div class="card" style="width: 20 rem;">
+                <img src="img/Braclet.jpg" class="card-img-top uniform-img" alt="Braclet">
+                <div class="card-body">
+                <h5 class="card-title">Braclet</h5>
+                 <p class="card-text">RM45</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+             </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-2">
+        <p>© 2026 Cynthia Ecommerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>
